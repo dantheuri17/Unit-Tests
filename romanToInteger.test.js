@@ -26,8 +26,8 @@ describe("romanToInteger", () => {
 		expect(romanToInteger("IIII")).toBe(null);
 		expect(romanToInteger("XXXX")).toBe(null);
 		expect(romanToInteger("CCCC")).toBe(null);
-		// expect(romanToInteger("MMMM")).toBe(null);
-		// expect(romanToInteger("MCMXCVIIII")).toBe(null);
-		// expect(romanToInteger("MCMXCIVI")).toBe(null);
+		expect(romanToInteger("MMMM")).toBe(null);
+		expect(romanToInteger("MCMXCVIIII")).toBe(null);
+		expect(romanToInteger("MCMXCIVI")).toBe(null);
 	});
 });
